@@ -1,5 +1,5 @@
 """
-Author  : Nitin Prasad
+Author  : mtk2xfugaku
 Summary : matrix arithmetics using only Python list.
 Date    : 01-08-21
 """
