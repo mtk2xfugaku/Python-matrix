@@ -2,7 +2,7 @@
 """
 Created on Tue Sep 21 15:30:16 2021
 
-@author: nitin
+@author: mtxfugaku
 
 
 TODO: write a function to calculate weighted median 
