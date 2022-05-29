@@ -211,7 +211,7 @@ def dot(A:list,B:list)-> float:
 
 
 def make(nRow:int,nCol:int,Real:float)-> list:
-    # to make an arbitrary dim matrix with any integer value.
+    # to make an arbitrary dimension matrix 
 
     C : list = [[float(Real) for _ in range(nCol)] for _ in range(nRow)]
     return C
@@ -230,6 +230,4 @@ def randomMat(dim1: int,dim2: int)-> list:
     from random import random 
     return [[random() for _ in range(dim1)] for _ in range(dim2)]
 
-def makeComplex(dim1: int,dim2: list)-> list:
-    return [[complex(0.0) for _ in range(dim2)] for _ in range(dim1)]
 
