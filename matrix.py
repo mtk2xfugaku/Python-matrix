@@ -120,7 +120,7 @@ def MUL(A : list,B : list) -> list:
     for i in range(nRow):
         for j in range(nCol):
             for k in range(len(A[0])):
-                C[i][j] = A[i][k] * B[k][j]
+                C[i][j] += A[i][k] * B[k][j]
     return C
 
 
